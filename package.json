@@ -1,0 +1,30 @@
+{
+  "name": "frontend-react-template",
+  "version": "0.1.0",
+  "description": "Frontend-only template for vanilla React applications",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --open --inline --colors --hot --mode development",
+    "test": "jest --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/connorrose/frontend-React-template.git"
+  },
+  "keywords": [
+    "web-dev",
+    "starter",
+    "template",
+    "react",
+    "webpack",
+    "eslint",
+    "prettier",
+    "jest"
+  ],
+  "author": "Connor Rose Delisle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/connorrose/frontend-React-template/issues"
+  },
+  "homepage": "https://github.com/connorrose/frontend-React-template#readme"
+}
