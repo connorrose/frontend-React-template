@@ -5,11 +5,12 @@ const App = () => {
   const throwError = () => {
     throw new Error();
   };
+
   return (
     <>
       <h1>EXAMPLE</h1>
       <button type="button" onClick={throwError}>
-        do not press
+        Do not click
       </button>
     </>
   );
