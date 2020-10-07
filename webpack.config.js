@@ -41,19 +41,19 @@ module.exports = {
     extensions: ['.js', '.jsx'],
     alias: {
       'react-dom': '@hot-loader/react-dom',
-    }
+    },
   },
   devServer: {
     contentBase: path.resolve(__dirname, 'dist'),
     overlay: {
       warnings: true,
       errors: true,
-    }
+    },
   },
   plugins: [
     new HtmlWebpackPlugin({
       filename: 'index.html',
       template: 'index.html',
-    })
-  ]
-}
+    }),
+  ],
+};
