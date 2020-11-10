@@ -1,8 +1,5 @@
-/* eslint-disable react/jsx-filename-extension */
-import React from 'react';
 import { render } from 'react-dom';
-import App from './App';
-import './styles.scss';
+import App from './containers/App';
 
 const mountNode = document.getElementById('root');
 render(<App />, mountNode);
