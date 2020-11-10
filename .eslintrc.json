@@ -57,12 +57,14 @@
         "reservedFirst": true
       }
     ],
+    "react/jsx-uses-react": "off",
     "react/no-adjacent-inline-elements": "error",
     "react/no-direct-mutation-state": "error",
     "react/no-multi-comp": "error",
     "react/prop-types": [
       "error",
       { "skipUndeclared": true }
-    ]
+    ],
+    "react/react-in-jsx-scope": "off"
   }
 }
